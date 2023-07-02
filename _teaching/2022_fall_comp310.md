@@ -1,7 +1,7 @@
 ---
 title: "Operating Systems Undergraduate Teaching Assistant"
 collection: teaching
-type: "Undergraduate course"
+type:
 permalink: /teaching/2022_fall_comp310
 venue: "McGill University, School of Computer Science"
 date: 2022-09-01

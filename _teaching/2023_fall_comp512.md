@@ -1,10 +1,10 @@
 ---
 title: "Distributed Systems Undergraduate Teaching Assistant"
 collection: teaching
-type: "Undergraduate course"
+type:
 permalink: /teaching/2023_fall_comp512
 venue: "McGill University, School of Computer Science"
-date: 2022-09-01
+date: 2023-09-01
 location: "Montreal, Canada"
 ---
 
