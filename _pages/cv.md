@@ -9,10 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
+Curriculum Vitae [PDF](https://drive.google.com/file/d/1CGUrRUga8ZNbNwoolqEj_pWIKXvlfCvk/view?usp=sharing) 
+
 Education
 ======
 * B.Sc. in Computer Science, McGill University, Montreal, Canada, 2020 - 2024
-* Visiting Student,University of British Columbia, Vancouver, Canada, 2023
+* Visiting Student, University of British Columbia, Vancouver, Canada, 2023
 * High School Diploma, Farzanegan 2 High School, National Organization for Development of Exceptional Talents, Tehran, Iran, 2016 - 2019
 
 Research experience
@@ -50,10 +52,10 @@ Work experience
 
 * Data Engineering Intern, May 2021 - September 2021
   * DataLake Team, Canadian National Railway (CN), Montreal, Canada
-  * Implemented an internal Q\&A and knowledge sharing platform for the team on Microsoft Azure.
+  * Implemented an internal Q&A and knowledge sharing platform for the team on Microsoft Azure.
   * Designed real-time monitoring dashboards for DataLake team using Microsoft Azure and Power Bi.
 
-* Research \& Development Intern, February 2021 - May 2021
+* Research & Development Intern, February 2021 - May 2021
   * Affinity RCM Team, Harris Computer Corporation, Ottawa, Canada
   * Designed an automated quality assurance (QA) process framework using Selenium webdriver and C\# supporting web-based application testing.
   
