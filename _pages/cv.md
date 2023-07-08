@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Curriculum Vitae [PDF](https://drive.google.com/file/d/1CGUrRUga8ZNbNwoolqEj_pWIKXvlfCvk/view?usp=sharing) 
+Curriculum Vitae [PDF](http://academicpages.github.io/files/CV.pdf) 
 
 Education
 ======
