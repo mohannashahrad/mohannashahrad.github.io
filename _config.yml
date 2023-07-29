@@ -206,7 +206,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _studentlife
   - scope:
       path: ""
       type: studentlife
