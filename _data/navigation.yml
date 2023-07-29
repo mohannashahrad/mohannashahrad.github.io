@@ -4,10 +4,7 @@ main:
     url: /cv/
 
   - title: "Projects"
-    url: /projects/   
-
-  - title: "Teaching"
-    url: /teaching/  
+    url: /projects/    
     
   - title: "Student Life and Volunteering"
     url: /studentlife/
