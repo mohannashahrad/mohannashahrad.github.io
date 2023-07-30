@@ -31,6 +31,7 @@ layout: compress
 
         .projects-container-row {
         display: flex;
+        flex: 50%;
         justify-content: space-around;
         flex-direction: row;
         align-items: stretch;
@@ -72,6 +73,41 @@ layout: compress
         box-shadow: 0 3px 10px var(--primary-shadow);
         padding: 20px;
         margin: 10px;
+        }
+
+        .flex-container {
+           display: -webkit-flex;
+           display: flex;
+           -webkit-flex-direction: row;
+           flex-direction: row;
+           -webkit-align-items: center;
+           align-items: center;
+           
+           flex-wrap: wrap;
+           min-width: 320px;
+           max-width: 1220px;
+        }
+        .flex-item {
+        height: 120px;
+        width: 300px;
+        background-color: #e46119;
+        border: 1px solid #626262;
+        margin: 3px;
+        padding: 10px 0 0 10px;
+        }
+        
+        .info-container{
+            display: inline-block;
+            vertical-align: top;
+            padding: 0 0 0 5px;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .info-container p{
+            padding: 0;
+            margin: 0 0 10px;
         }
         
         </style>
