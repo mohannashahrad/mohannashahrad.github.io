@@ -75,39 +75,42 @@ layout: compress
         margin: 10px;
         }
 
-        .flex-container {
-           display: -webkit-flex;
-           display: flex;
-           -webkit-flex-direction: row;
-           flex-direction: row;
-           -webkit-align-items: center;
-           align-items: center;
-           
-           flex-wrap: wrap;
-           min-width: 320px;
-           max-width: 1220px;
-        }
-        .flex-item {
-        height: 400px;
-        width: 500px;
-        background-color: #e46119;
-        border: 1px solid #626262;
-        margin: 3px;
-        padding: 10px 0 0 10px;
-        }
-        
-        .info-container{
-            display: inline-block;
-            vertical-align: top;
-            padding: 0 0 0 5px;
-            -moz-box-sizing: border-box;
-            -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+        .feature-items {
+        background: #CCC;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
         }
 
-        .info-container p{
-            padding: 0;
-            margin: 0 0 10px;
+        .feature-item--wrapper {
+        background: #efefef;
+        flex-direction: row;
+        box-sizing: border-box;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        }
+
+        .img-wrapper {
+        box-sizing: border-box;
+        width: 88px;
+        padding-right: 24px;
+        }
+
+        .img-wrapper,
+        img {
+        width: 64px;
+        height: 64px;
+        }
+
+        .text {
+        box-sizing: border-box;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        flex: 1 1 auto;
         }
         
         </style>
