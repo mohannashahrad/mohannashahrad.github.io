@@ -79,19 +79,25 @@ layout: compress
         background: #353d4b;
         box-sizing: border-box;
         width: 100%;
-        padding: 0px;
+        padding: 10px;
         display: flex;
         flex-wrap: wrap;
         }
 
         .feature-item--wrapper {
-        background: #354d4b;
+        background: #353d4b;
         flex-direction: row;
         box-sizing: border-box;
         width: 50%;
         align-items: center;
         justify-content: center;
         display: flex;
+        }
+
+        .feature-item--wrapper:hover {
+            transform: scale(1.02);
+            background-color: #618c92;
+            transition: 0.2s;
         }
 
         .img-wrapper {
