@@ -2,6 +2,17 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
+.section-title {
+  margin: 2.5em 0 0.75em;
+  padding: 0.35em 0.6em;
+  background-color: mix(#fff, $primary-color, 85%);
+  color: $text-color;
+  font-size: $type-size-2;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  border-radius: $border-radius;
+}
+
 #main {
   @include container;
   @include clearfix;
@@ -11,16 +22,18 @@
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
-  @include breakpoint($x-large) {
-    max-width: $x-large;
+  /* the container mixin caps this at a fixed width meant for the old
+     top-bar layout; in the fixed-sidebar layout (see $large below) that
+     just leaves unused space on wide screens, so let it fill whatever
+     room remains next to the sidebar instead */
+  @include breakpoint($large) {
+    max-width: none;
   }
 }
 
 .page {
   @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
+    @include span(8.5 of 12);
   }
 
   .page__inner-wrap {

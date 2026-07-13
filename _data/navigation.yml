@@ -1,14 +1,14 @@
 # main links links
 main:
-  - title: "CV"
-    url: /cv/
-
   - title: "Publications"
-    url: /publications/ 
+    url: /#publications
+    anchor: publications
 
-  - title: "Projects"
-    url: /projects/    
-    
-  - title: "Student Life and Volunteering"
-    url: /studentlife/
-        
+  - title: "Awards"
+    url: /#awards
+    anchor: awards
+
+  - title: "Teaching"
+    url: /#teaching
+    anchor: teaching
+

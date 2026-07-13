@@ -51,3 +51,38 @@
     font-weight: 700;
   }
 }
+
+/*
+   Side navigation (desktop): masthead becomes a fixed column on the left,
+   staying visible while the page scrolls. Below $large it stays the
+   original top bar with the existing greedy-nav / hamburger behavior.
+   ========================================================================== */
+
+@include breakpoint($large) {
+  .masthead {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: $sidebar-nav-width;
+    border-bottom: 0;
+    border-right: 1px solid $border-color;
+    overflow-y: auto;
+
+    &__inner-wrap {
+      max-width: none;
+      height: 100%;
+      padding: 2em 1.75em;
+
+      @include breakpoint($x-large) {
+        max-width: none;
+      }
+    }
+  }
+
+  /* higher specificity than _page.scss's `#main { @include container; }`,
+     which sets its own auto margins and would otherwise win on import order */
+  body #main {
+    margin-left: $sidebar-nav-width;
+  }
+}

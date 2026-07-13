@@ -1,0 +1,65 @@
+/* ==========================================================================
+   NEWS FEED
+   ========================================================================== */
+
+.news-feed {
+  margin: 2em 0;
+  padding: 1.25em 1.5em;
+  background-color: $lighter-gray;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+
+  &__title {
+    margin: 0 0 0.75em;
+    font-size: $type-size-5;
+    font-weight: 600;
+    color: $text-color;
+
+    i {
+      margin-right: 0.35em;
+      color: $primary-color;
+    }
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item {
+    display: flex;
+    align-items: baseline;
+    gap: 1em;
+    padding: 0.6em 0;
+    border-top: 1px solid $border-color;
+
+    &:first-child {
+      padding-top: 0;
+      border-top: 0;
+    }
+  }
+
+  &__date {
+    flex: 0 0 auto;
+    width: 5.5em;
+    color: mix(#fff, $gray, 25%);
+    font-size: $type-size-6;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  &__text {
+    flex: 1 1 auto;
+    font-size: $type-size-6;
+    line-height: 1.5;
+
+    p {
+      margin: 0;
+    }
+
+    a {
+      color: $link-color;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{% assign news_items = site.news | sort: "date" | reverse %}
+{% if news_items.size > 0 %}
+<section class="news-feed">
+  <h2 class="news-feed__title"><i class="fas fa-rss" aria-hidden="true"></i> News</h2>
+  <ul class="news-feed__list">
+    {% for item in news_items %}
+    <li class="news-feed__item">
+      <time class="news-feed__date" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %Y" }}</time>
+      <div class="news-feed__text">{{ item.title | markdownify | remove: "<p>" | remove: "</p>" }}</div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

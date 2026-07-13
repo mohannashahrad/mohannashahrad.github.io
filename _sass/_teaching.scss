@@ -1,0 +1,28 @@
+/* ==========================================================================
+   TEACHING
+   ========================================================================== */
+
+.teaching-list {
+  margin: 1.5em 0;
+  padding: 0;
+  list-style: none;
+}
+
+.teaching-item {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1em;
+  padding: 0.7em 0;
+}
+
+.teaching-item__name {
+  color: $text-color;
+  font-weight: 600;
+}
+
+.teaching-item__date {
+  flex: 0 0 auto;
+  color: mix(#fff, $gray, 25%);
+  font-size: $type-size-6;
+}

@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Mohanna Shahrad"
   avatar           : "profile.jpg"
-  bio              : "First-year Ph.D. student at Princeton University"
-  location         : "Princeton, NJ, United States"
+  location         :
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&authuser=1&user=tmtjec8AAAAJ"
+  cv               : "/files/CV.pdf"
   email            : "mohanna@princeton.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -184,6 +184,8 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  news:
+    output: false
 
 
 # Defaults
